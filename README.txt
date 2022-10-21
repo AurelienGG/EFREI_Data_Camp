@@ -6,6 +6,8 @@ streamlit
 streamlit-option-menu
 tensorflow
 
+the unchanged "chest_xray" repository need to be added to the project root for the Jupyter Notebook to run
+
 to run the streamlit run the following command:
 streamlit run Project_Data_Camp.py --theme.primaryColor="#ff4b4c" --theme.backgroundColor="#fffffe" --theme.secondaryBackgroundColor="#ffd7d7" --theme.textColor="#31333e"
 
