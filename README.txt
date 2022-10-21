@@ -11,3 +11,6 @@ streamlit run Project_Data_Camp.py --theme.primaryColor="#ff4b4c" --theme.backgr
 
 link to the app web version:
 https://aureliengg-efrei-data-camp-project-data-camp-1ibpzj.streamlitapp.com/
+
+link to the github repository:
+https://github.com/AurelienGG/EFREI_Data_Camp
