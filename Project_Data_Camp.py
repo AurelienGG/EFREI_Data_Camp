@@ -46,7 +46,6 @@ with st.sidebar:
     st.write(" ")
     st.write(" ")
     st.write(" ")
-    st.write("www.linkedin.com/in/clément-dauvois-2b5079222")
     choose = option_menu("Menu", ["Home","Your Test","Contact"],
                          icons=['house','download','envelope-fill'],
                          menu_icon="app-indicator", default_index=0,
@@ -274,9 +273,8 @@ if choose == "Contact":
 
     with col1 :
 
-        #st.image(Image.open('C:/Users/clecl/S7 datacamp/Photo/Photo_Clément.jpg'))
-        image_clement = cv2.imread('images/Photo_Clément.png')
-        st.image(image_clement, width = 200)
+        #st.image(Image.open('C:/Users/clecl/S7 datacamp/Photo/Photo_Clement.jpg'))
+        st.image(cv2.imread('images/Photo_Clement.jpg', 0))
 
 
     with col2:
@@ -285,9 +283,8 @@ if choose == "Contact":
 
     with col3 :
 
-        #st.image(Image.open('C:/Users/clecl/S7 datacamp/Photo/Photo_Aurélien.jpg'))
-        image_aurelien = cv2.imread('images/Photo_Aurélien.png')
-        st.image(image_aurelien, width = 200)
+        #st.image(Image.open('C:/Users/clecl/S7 datacamp/Photo/Photo_Aurelien.jpg'))
+        st.image(cv2.imread('images/Photo_Aurelien.jpg', 0))
 
     with col4:
 
@@ -296,8 +293,7 @@ if choose == "Contact":
     with col5 :
 
         #st.image(Image.open('C:/Users/clecl/S7 datacamp/Photo/Photo_Nicolas.jpg'))
-        image_nicolas = cv2.imread('images/Photo_Nicolas.png')
-        st.image(image_nicolas, width = 200)
+        st.image(cv2.imread('images/Photo_Nicolas.jpg', 0))
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
