@@ -1,5 +1,5 @@
 import cv2
-from turtle import color
+#from turtle import color
 import pandas as pd
 import streamlit as st
 #import seaborn as sns
